@@ -1,0 +1,88 @@
+{
+  "logistic_regression": {
+    "test_pr_auc": 0.7441697985306136,
+    "test_pr_auc_95ci": [
+      0.6367503711963616,
+      0.8510042323946531
+    ],
+    "test_roc_auc": 0.9815495902452425,
+    "at_chosen_threshold": {
+      "threshold": 0.999937278977218,
+      "true_positives": 51,
+      "false_positives": 12,
+      "false_negatives": 23,
+      "precision": 0.8095238095238095,
+      "recall": 0.6891891891891891,
+      "alerts_per_10k_transactions": 11.102104113065238,
+      "fraud_amount_caught_share": 0.6110496436830248,
+      "total_cost_usd": 3065.6800000000003,
+      "cost_if_no_model_usd": 7727.67
+    },
+    "single_prediction_latency_ms": 0.7545759994536638,
+    "review_cost_sensitivity": [
+      {
+        "review_cost": 1.0,
+        "threshold": 0.8982473542771713,
+        "test_recall": 0.8513513513513513,
+        "test_false_alarms": 224
+      },
+      {
+        "review_cost": 5.0,
+        "threshold": 0.999937278977218,
+        "test_recall": 0.6891891891891891,
+        "test_false_alarms": 12
+      },
+      {
+        "review_cost": 25.0,
+        "threshold": 0.9999841119105213,
+        "test_recall": 0.6621621621621622,
+        "test_false_alarms": 2
+      }
+    ]
+  },
+  "gradient_boosting": {
+    "test_pr_auc": 0.8047676716580956,
+    "test_pr_auc_95ci": [
+      0.7222097518333502,
+      0.8820596597665911
+    ],
+    "test_roc_auc": 0.9809393933035236,
+    "at_chosen_threshold": {
+      "threshold": 0.03258364297948123,
+      "true_positives": 56,
+      "false_positives": 19,
+      "false_negatives": 18,
+      "precision": 0.7466666666666667,
+      "recall": 0.7567567567567568,
+      "alerts_per_10k_transactions": 13.21679061079195,
+      "fraud_amount_caught_share": 0.6886629475637547,
+      "total_cost_usd": 2500.91,
+      "cost_if_no_model_usd": 7727.67
+    },
+    "single_prediction_latency_ms": 3.051032500807196,
+    "review_cost_sensitivity": [
+      {
+        "review_cost": 1.0,
+        "threshold": 0.0019297835032980202,
+        "test_recall": 0.8648648648648649,
+        "test_false_alarms": 168
+      },
+      {
+        "review_cost": 5.0,
+        "threshold": 0.03258364297948123,
+        "test_recall": 0.7567567567567568,
+        "test_false_alarms": 19
+      },
+      {
+        "review_cost": 25.0,
+        "threshold": 0.9158440644467554,
+        "test_recall": 0.6216216216216216,
+        "test_false_alarms": 1
+      }
+    ]
+  },
+  "pr_auc_gain_boosting_minus_logistic_95ci": [
+    -0.0021859885981732356,
+    0.12633682710365446
+  ]
+}

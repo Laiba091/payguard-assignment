@@ -1,0 +1,61 @@
+complaint_id,category,alt_category,urgency,requires_human,label_note
+23742126,credit_reporting,,medium,False,Bureaus treat own disputes as third-party; cites law but no threat
+23749710,fraud_scam,payments_transfers,medium,True,Gift card balance used by unknown party after replacement card issued
+23751414,loans,,medium,False,"Payday loan: APR not disclosed, payment schedule changed"
+23753882,loans,,medium,False,Student loan servicer has wrong IDR recertification dates
+23754342,debt_collection,credit_reporting,medium,False,"Wants debt validation / arbitration, removal from credit report"
+23755686,debt_collection,,medium,True,Timeshare debt collection $66k after hurricane hardship
+23756006,loans,payments_transfers,medium,False,Travel loan not closed after hotel refund
+23757481,loans,,medium,False,PSLF refund for old FFEL payments delayed
+23758103,debt_collection,credit_cards,medium,False,"Template debt-validation letter to card issuer, no threat"
+23759548,credit_reporting,fraud_scam,medium,True,Identity-theft block request ignored by bureau
+23761505,credit_cards,fraud_scam,medium,True,"Card account repeatedly hacked, cannot see charges"
+23761599,payments_transfers,,medium,False,PayPal won't close dispute after bank chargeback closed
+23761814,fraud_scam,bank_accounts,high,True,"Fraudulent $2,000 transfers; bank now collecting fraud-linked balance, autopay imminent"
+23769979,loans,,medium,True,"Long pro-se auto loan complaint, claims contract void; mixed issues"
+23771163,credit_reporting,fraud_scam,medium,True,Identity theft; threatens civil litigation and damages
+23772179,credit_cards,,medium,False,Card issuer reversed billing-dispute credit after airline bankruptcy
+23772626,debt_collection,fraud_scam,medium,False,Debt-relief/collector won't verify debt before payment
+23774716,credit_reporting,loans,medium,False,"Auto lender lost insurance payoff checks, reporting late"
+23775126,payments_transfers,,medium,False,Cash App account deactivated without reason
+23779593,credit_reporting,,medium,True,FCRA 605B identity-theft block request
+23782428,bank_accounts,,low,False,Weekly balance email alerts stopped
+23793490,debt_collection,,medium,True,Collector threatening family and workplace (harassment)
+23798253,debt_collection,credit_reporting,medium,False,Disputed debt buyer reporting not substantiated
+23798257,loans,,medium,False,Mortgage escrow error raised payments
+23799817,credit_cards,,medium,False,Card dispute denied for unreturned merchandise
+23805509,fraud_scam,payments_transfers,medium,True,"Malware: unauthorized PayPal transfers, claim denied"
+23807920,fraud_scam,bank_accounts,medium,True,"$5,500 unauthorized debit card transactions, claim denied"
+23812378,loans,,medium,False,Lease-to-own financing for car repair never performed
+23815835,debt_collection,,medium,False,Disputed telecom debt in collections
+23818198,fraud_scam,credit_reporting,medium,True,Credit card opened in my name (identity theft)
+23820548,credit_reporting,loans,medium,False,"GAP insurance not applied, repossession reported"
+23826751,loans,,medium,False,Lender took offset and reported late during open dispute
+23827435,loans,,medium,False,Wants itemised mortgage payoff accounting
+23835617,payments_transfers,fraud_scam,medium,True,Prepaid card dispute denied for undelivered live-shopping items; reported as fraud
+23844955,bank_accounts,,high,True,Elderly customer with vision problems cannot access money
+23874603,payments_transfers,,high,True,PayPal holding funds for 2+ years
+23874757,payments_transfers,,medium,True,Cannot access prepaid account or pay electric bill
+23881716,loans,payments_transfers,medium,False,BNPL account locked with no appeal
+23882388,loans,,medium,True,Successor in interest after borrower's death blocked by new servicer
+23883579,credit_reporting,fraud_scam,medium,True,"Template letter: fraudulent/unauthorized accounts, identity theft"
+23883587,fraud_scam,loans,high,True,Government-impersonation scam victim coerced into taking loan
+23899363,loans,,medium,False,Auto lender holding title after payoff
+23899436,bank_accounts,fraud_scam,medium,False,Bank won't remove a $46 charge the customer calls bogus
+23900506,credit_cards,,medium,False,Deferred-interest 'amount to avoid' misleading
+23903615,credit_reporting,credit_cards,low,False,Goodwill request to remove accurate late payments
+23906116,loans,debt_collection,high,True,Debt-settlement company; customer now being sued by creditor
+23906516,fraud_scam,bank_accounts,high,True,"$7,400 unauthorized card transactions, claim denied"
+23920244,bank_accounts,,low,False,Weekly balance email alerts stopped (repeat complaint)
+23922435,fraud_scam,credit_cards,medium,True,"Card account opened in my name, issuer won't close it"
+23924326,loans,,high,True,Repossession; can't find car with father's ashes and belongings inside
+23927498,credit_reporting,,medium,True,FCRA 605B identity-theft block request
+23939265,credit_reporting,,medium,False,Template letter on accounts reported without consent; no fraud claim stated
+23943793,fraud_scam,payments_transfers,medium,True,Prepaid refund card drained to unknown bank account
+23946444,credit_cards,,low,False,$3 fees charged after card closure
+23948631,fraud_scam,payments_transfers,high,True,"PayPal account taken over, repeated transfers out"
+23949399,loans,,medium,False,Mortgage payment timing vs income deposits
+23950783,bank_accounts,payments_transfers,medium,False,Overdraft fee despite opt-out (miscoded recurring debit)
+23952561,credit_cards,,medium,False,Billing dispute for cancelled medical service denied
+23954228,loans,,medium,False,In-school deferment denied without records
+23955428,fraud_scam,payments_transfers,medium,True,"Accounts hacked, unauthorized purchases and transfers"
